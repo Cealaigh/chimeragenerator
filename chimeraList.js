@@ -49,7 +49,7 @@ const creatureList = {
             "tapir", "tasmanian devil", "tiger", "vampire bat", "walrus", "warthog", "water buffalo", "wolf", "wolverine", "zebra"],
 
   reptiles: ["american alligator", "armadillo girdled lizard", "asian giant softshell turtle", "black mamba", "blue-tounged skink", 
-             "boa", "chameleon", "cobra", "common lizard", "crocodile", "fish-scaled geeko", "flying gecko", "frilled lizard", "gaboon viper", "gecko", 
+             "boa", "chameleon", "cobra", "common lizard", "crocodile", "fish-scaled gecko", "flying gecko", "frilled lizard", "gaboon viper", "gecko", 
              "gharial", "gila monster", "green basilisk", "horned lizard", "iguana", "inland taipan", "jackson's chameleon", 
              "komodo dragon", "malagasy leaf-nosed snake", "marine iguana", "mata mata", "ornate flying snake", "pig-nosed turtle", 
              "python", "satanic leaf-tailed gecko", "spiny bush viper", "tegu", "tentacled snake", "thorny devil", "tortoise", 
