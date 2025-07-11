@@ -1,0 +1,66 @@
+body {
+    background-color: #efe6d5; 
+    font-family: "Papyrus", "Fantasy", cursive, serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;         
+    font-size: 1.0em;
+}
+
+h2, h3 {
+    margin-top: 1em;
+}
+
+label, input, button, p {
+    font-size: 1.2em;
+    margin: 0.5em;
+}
+
+input[type="number"] {
+    padding: 5px;
+    font-size: 1em;
+    width: 60px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #cbb78d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #a98361;
+}
+
+#chimeraResult {
+    margin-top: 1em;
+    font-weight: bold;
+    white-space: pre-line;
+}
+
+#shape1 {
+    width: 30%;
+    padding: 5px;
+    background: #cbb78d;
+    border: none;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.checkboxes label {
+  display: inline-block;
+  padding-right: auto;
+  white-space: nowrap;
+}
+.checkboxes input {
+  vertical-align: middle;
+}
+.checkboxes label span {
+  vertical-align: middle;
+}

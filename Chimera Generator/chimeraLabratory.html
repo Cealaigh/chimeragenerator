@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chimera Labratory</title>
+    <link rel="stylesheet" href="chimeraLab.css">
+</head>
+<body>
+    <script src="chimeraList.js"></script> 
+    <h1>Chimera Generator</h1>
+    <p>This is a work in progress, I plan on adding more possible combinations and options</p>
+<!--
+    <p id="chimeraBody"></p>
+    <button onclick="chimeraBody()">Generate Body</button>
+
+    <p id="chimeraHead"></p>
+    <button onclick="chimeraHead()">Generate Head</button>
+
+    <p id="chimeraLimbs"></p>
+    <button onclick="chimeraLimbs()">Generate Limbs</button>
+
+    <p id="pickRandomLimb"></p>
+    <button onclick="pickRandomLimb()">Generate a Random Limb</button>
+-->
+
+
+<!-- 
+<form> //IF USING SLIDER
+    <label> Select the types of animals you want to combine:</label><br>
+    <div class="slidecontainer">
+    <input type="range" min="2" max="8" value="5" class="slider" id="myRange">
+    <p>Value: <span id="rangeOut"></span></p>
+    </div>
+</form>
+-->
+
+    <br>
+
+    <label>Enter how many creatures you would like to combine (at least 2 and up to 8):</label>
+    <br>
+    <input id="numberInput" type="number">
+
+    <button onclick="saveNumber()">Submit</button>
+
+    <p id="numSelected"></p>
+    
+<form>
+    <label> Select the types of animals you want to combine:</label>
+    <br><br>
+    <div class="checkboxes">
+        <input type="checkbox" class="animal" value="amphibians"> <span>Amphibians</span>
+        <input type="checkbox" class="animal" value="birds"> <span>Birds</span>
+        <input type="checkbox" class="animal" value="fish"> <span>Fish</span>
+        <input type="checkbox" class="animal" value="invertebrates"> <span>Invertebrates</span>
+        <input type="checkbox" class="animal" value="mammals"> <span>Mammals</span>
+        <input type="checkbox" class="animal" value="reptiles"> <span>Reptiles</span>
+    </div>
+</form>
+
+    <button onclick="generate()">Generate Chimera</button>
+
+    <p id="animalOut"></p>
+    <div id="shape1">
+        <span><p id="chimeraResult"></p></span>
+    </div>
+  
+
+</body>
+</html>
