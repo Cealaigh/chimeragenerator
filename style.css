@@ -1,6 +1,6 @@
 body {
     background-color: #efe6d5; 
-    font-family: "Papyrus", "Fantasy", cursive, serif;
+    font-family: "Macondo", cursive;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -65,13 +65,4 @@ button:hover {
   vertical-align: middle;
 }
 
-@font-face {
-  font-family: 'Papyrus'; 
-  src: url('fonts/Papyrus-Regular.woff2') format('woff2'),  
-       url('fonts/Papyrus-Regular.woff') format('woff'),    
-       url('fonts/Papyrus-Regular.ttf') format('truetype'); 
-  font-weight: normal;  
-  font-style: normal;   
-  font-display: swap;   
-}
 
