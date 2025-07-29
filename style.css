@@ -13,6 +13,7 @@ h2, h3 {
 }
 
 label, input, button, p {
+    
     font-size: 1.2em;
     margin: 0.5em;
 }
@@ -38,8 +39,9 @@ button:hover {
 }
 
 #chimeraResult {
+    padding: 35px;
     margin-top: 1em;
-    font-weight: bold;
+    /*font-weight: bold;*/
     white-space: pre-line;
 }
 
